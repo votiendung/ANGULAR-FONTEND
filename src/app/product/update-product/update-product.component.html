@@ -1,0 +1,20 @@
+<h1>Update Product Info</h1>
+<form (ngSubmit)="updateProduct(id)">
+  <table class="table table-success">
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" name="name" [(ngModel)]="product.name"></td>
+    </tr>
+    <tr>
+      <td>Price:</td>
+      <td><input type="text" name="price" [(ngModel)]="product.price"></td>
+    </tr>
+    <tr>
+      <td>Description:</td>
+      <td><input type="text" name="description" [(ngModel)]="product.description"></td>
+    </tr>
+    <tr>
+      <td><button>Submit</button></td>
+    </tr>
+  </table>
+</form>

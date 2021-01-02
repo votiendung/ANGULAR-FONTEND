@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "KETNOIBACKEND"
+  "defaultProject": "KETNOIBACKEND",
+  "cli": {
+    "analytics": "b9522d9a-eaf7-4161-9f1b-1baa5fc675c9"
+  }
 }

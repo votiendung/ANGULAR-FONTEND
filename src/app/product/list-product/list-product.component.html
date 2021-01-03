@@ -6,6 +6,7 @@
     <th>Name</th>
     <th>Price</th>
     <th>Description</th>
+    <th>Image</th>
     <th>Edit</th>
     <th>Delete</th>
   </tr>
@@ -16,8 +17,9 @@
         <td>{{product.name}}</td>
         <td>{{product.price}}</td>
         <td>{{product.description}}</td>
+        <td><img [src]="product.image" alt="lỗi" width="50px"></td>
         <td><a [routerLink]="['/update-product/', product.id]" class="mt-4 mb-4">Edit</a></td>
-        <td><a [routerLink]="['/delete-product/',product.id]">Delete</a></td>
+        <button type="button" class="btn btn-danger" (click)="deleteProduct()">Delete</button>
       </tr>
   </ng-container>
   </tbody>

@@ -4,7 +4,16 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:8080'
+  apiUrl: 'http://localhost:8080',
+  firebaseConfig: {
+    apiKey: 'AIzaSyCPwmesURn15dvjXhQjxqIWYeerEonZMEw',
+    authDomain: 'ketnoibackend.firebaseapp.com',
+    projectId: 'ketnoibackend',
+    storageBucket: 'ketnoibackend.appspot.com',
+    messagingSenderId: '672279948214',
+    appId: '1:672279948214:web:f62e0ea886daa51b02ef17',
+    measurementId: 'G-HDW4EJ0DQJ'
+  }
 };
 
 /*

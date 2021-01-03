@@ -20,6 +20,19 @@
       </div>
     </tr>
     <tr>
+      <div class="form-group">
+        <label for="image">Chọn ảnh sản phẩm</label>
+        <div class="input-group">
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" multiple="multiple" id="image" name="image"
+                   (change)="showPreview($event)">
+            <label class="custom-file-label" for="image">Choose file</label>
+          </div>
+        </div>
+      </div>
+    </tr>
+
+    <tr>
       <td><button>Create</button></td>
     </tr>
   </table>
